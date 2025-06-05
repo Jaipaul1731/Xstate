@@ -1,0 +1,27 @@
+.main_div{
+    display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  height: 100vh; /* full screen height */
+  gap: 1rem; /* spacing between elements */
+  text-align: center;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+select {
+    padding: 0.5rem;
+    font-size: 1rem;
+    min-width: 180px;
+    /* margin: 10px; */
+  }
+  .state_country{
+    color: #a8a8a8;
+    font-size: 15px;
+  }
+  .you_selected{
+    font-size: 15px;
+  }
