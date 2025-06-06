@@ -124,7 +124,7 @@ const XStateCountry=()=>{
             </select>
             </div> 
             {selectcity &&(
-                <h2><span className="you_selected">You selected</span> <span>{selectcity}</span><span className="state_country">{" "}{selectState},{selectedCountry}</span></h2>
+                <h2>You selected {selectcity}, {selectState}, {selectedCountry}</h2>
             )}
         </div>
     )
